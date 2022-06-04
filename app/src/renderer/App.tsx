@@ -21,9 +21,11 @@ export default function App() {
       <div className="navbar">
         <img src={logo} className="navbutton logo" />
         <div className="navtrio">
+          <div className="liney"></div>
           <img onClick={() => {setActive([true, false, false, false])}} src={home} className={active[0] ? "navbutton active" : "navbutton"} />
           <img onClick={() => {setActive([false, true, false, false])}} src={stocks} className={active[1] ? "navbutton active" : "navbutton"} />
           <img onClick={() => {setActive([false, false, true, false])}} src={find} className={active[2] ? "navbutton active" : "navbutton"} />
+          <div className="liney"></div>
         </div>
         <img onClick={() => {setActive([false, false, false, true])}} src={settings} className={active[3] ? "navbutton settings active" : "navbutton settings"} />
       </div>
