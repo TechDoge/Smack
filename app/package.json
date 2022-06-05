@@ -108,12 +108,18 @@
     }
   },
   "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^2.15.0",
+    "alphavantage-ts": "^1.1.4",
+    "crypto": "^1.0.1",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.7",
     "electron-updater": "^5.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "stocksocket": "^2.1.2",
+    "stream": "^0.0.2",
+    "stream-http": "^3.2.0"
   },
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.6",

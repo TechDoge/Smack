@@ -1,0 +1,229 @@
+.top-row{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 70%;
+    left: 50%;
+    margin-top: 25px;
+    transform: translate(-50%, 0);
+    height: 300px;
+}
+
+.top-row > div{
+    transition: all 0.25s ease;
+}
+
+.top-row > div:hover{
+    transform: translate(0, 10px);
+}   
+
+.holdings{
+    background: white;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 400px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.container-title{
+    margin: 8px;
+    margin-left: 25px;
+    font-family: "Saira";
+    font-size: 28px;
+    color: #443070;
+}
+
+.container-value{
+    text-align: center;
+    font-family: "Saira";
+    font-size: 45px;
+    color: #443070;
+    font-weight: 600;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.35);
+}
+
+.green-info{
+    color: #47ffc8;
+    font-family: "Saira";
+    font-size: 25px;
+    font-weight:500;
+    display: flex;
+    width: 60%;
+    align-self: center;
+}
+
+.green-up{
+    margin-top: 10px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #47ffc8;
+}
+
+.green-percent{
+    margin-left: 10px;
+}
+
+.green-money{
+    margin-left: 130px;
+}
+
+.learn{
+    background: white;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 900px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+}
+
+.button-container{
+    margin-top: 30px;
+    font-family: "Saira";
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.button-container > div{
+    transition: all 0.25s ease;
+}
+
+.button-container > div:hover{
+    transform: scale(1.05) translate(0, 5px) rotateX(20deg);
+}
+
+.green-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    background: #0CEDC4;
+}
+
+.blue-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    background: #8186FF;
+}
+
+.red-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    background: #FF4185;
+}
+
+.bottom-row{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 70%;
+    left: 50%;
+    margin-top: 560px;
+    transform: translate(-50%, 0);
+    height: 300px;
+}
+
+.bottom-row > div{
+    transition: all 0.25s ease;
+}
+
+.bottom-row > div:hover{
+    transform: translate(0, 10px);
+}
+
+.research{
+    background: white;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 700px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+}
+
+.research-containers{
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background: rgba(255, 0, 0, 0.116);
+}
+
+.research-container{
+    height: 33.34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Saira";
+    font-weight: 500;
+    font-size: 35px;
+    transition: all 0.4s ease;
+}
+
+.research-container:hover{
+    box-shadow: inset 0 0 0 200px rgb(255, 255, 255);
+    color: black;
+}
+
+.interests{
+    background: white;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 600px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+}
+
+.interests-containers{
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.interest-container{
+    width: 160px;
+    height: 75px;
+    background: red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Saira";
+    font-size: 25px;
+    transition: all 0.25s ease;
+}
+
+.interest-container:hover{
+    transform: scale(1.05);
+}

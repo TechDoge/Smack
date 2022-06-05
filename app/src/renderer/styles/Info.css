@@ -1,0 +1,95 @@
+.main{
+    position: absolute;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 400px;
+    overflow: auto;
+}
+
+.stocks-title{
+    font-family: "Saira";
+    font-size: 40px;
+    color: #443070;
+}
+
+.stock-line{
+    width: 90%;
+    height: 3px;
+    background: #C7C1CE;
+    margin-top: 50px;
+}
+
+.stock{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stock-title{
+    font-family: "Saira";
+    font-size: 25px;
+    color: #443070;
+    margin-left: 25px;
+}
+
+.stock-logo{
+    width: 50px;
+}
+
+.stock-owned{
+    font-family: "Saira";
+    font-size: 25px;
+    color: #443070;
+    margin-right: 25px;
+}
+
+.stock-value{
+    font-family: "Saira";
+    font-size: 25px;
+    color: #443070;
+    margin-right: 25px;
+}
+
+.curr-value{
+    font-family: "Saira";
+    font-size: 25px;
+    color: #443070;
+    margin-right: 25px;
+}
+
+.sell{
+    display: flex;
+}
+
+.sellButton{
+    width: 120px;
+    height: 60px;
+    background: #FF4E83;
+    font-family: "Saira";
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin-left: -90px;
+    z-index: 1;
+}
+
+.sellInput{
+    position: absolute;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    background: #E9F1FA;
+    font-family: "Saira";
+    font-size: 25px;
+    color: rgb(33, 26, 51);
+    text-align: center;
+}

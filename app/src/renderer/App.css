@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,300;0,400;0,500;0,600;1,200&display=swap');
+
 body {
   position: relative;
   color: white;
   height: 100vh;
   background: white;
-  overflow: hidden;
+  user-select: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .navbar{
-  position: absolute;
+  position: fixed;
   width: 120px;
   height: 95%;
   top: 50%;
